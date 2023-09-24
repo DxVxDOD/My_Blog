@@ -1,9 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import React from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = JetBrains_Mono({
+  subsets: ["latin"],
+  fallback: ["system-ui", "arial"],
+});
 
 export const metadata: Metadata = {
   title: "David's thoughts",
@@ -17,7 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} bg-zinc-900 text-zinc-200 container mx-auto p-4`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

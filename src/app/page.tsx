@@ -1,7 +1,15 @@
+import Link from "next/link";
+import Header from "@/app/_components/Header";
+import { Footer } from "@/app/_components/Footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
+    <>
+     <Header/>
+      <main>
+      <Link href='/first-entry'>First Entry</Link>
+      </main>
+      <Footer/>
+    </>
   );
 }
