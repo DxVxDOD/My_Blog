@@ -13,7 +13,7 @@ export const CardList = () => {
   ];
 
   return (
-    <nav className={'w-3/4 flex justify-center'} >
+    <nav className={'flex justify-center'} >
       {blogs.map((blog) => (
        <Link href={blog.path}>
          <Card

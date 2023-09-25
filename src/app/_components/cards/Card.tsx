@@ -11,13 +11,15 @@ export const Card = ({
   img: string | StaticImport;
 }) => {
   return (
-    <section className={"flex"}>
-      <Image src={img} alt={"Blog image"} />
-      <aside className={"flex flex-col"}>
-        <span className={"font-bold"}>
+    <section className={"grid grid-cols-2 w-[50em] h-[15rem]"}>
+      <div className={'border border-zinc-700 rounded-xl flex justify-center items-center'}>
+        <Image src={img} priority alt={"Blog image"} />
+      </div>
+      <aside className={"flex flex-col justify-center gap-2 p-4 rounded-r-xl"}>
+        <span className={"font-bold text-xl"}>
           <b>{title}</b>
         </span>
-        <span className={'w-3/4'} >{description}</span>
+        <span className={'w-3/4 text-xs'} >{description}</span>
       </aside>
     </section>
   );
