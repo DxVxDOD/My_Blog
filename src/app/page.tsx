@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Header from "@/app/_components/Header";
 import { Footer } from "@/app/_components/Footer";
+import { CardList } from "@/app/_components/cards/CardList";
 
 export default function Home() {
   return (
     <>
      <Header/>
-      <main>
-      <Link href='/first-entry'>First Entry</Link>
+      <main className='flex-auto flex flex-col items-center p-4' >
+        <CardList/>
       </main>
       <Footer/>
     </>
