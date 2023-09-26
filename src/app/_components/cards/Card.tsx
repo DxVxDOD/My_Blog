@@ -13,7 +13,7 @@ export const Card = ({
   return (
     <section className={"grid grid-cols-2 w-[50em] h-[15rem]"}>
       <div className={'border border-zinc-700 rounded-xl flex justify-center items-center'}>
-        <Image src={img} priority alt={"Blog image"} />
+        <Image src={img} width={0} height={0} priority alt={"Blog image"} />
       </div>
       <aside className={"flex flex-col justify-center gap-2 p-4 rounded-r-xl"}>
         <span className={"font-bold text-xl"}>

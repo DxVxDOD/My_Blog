@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Header from "@/app/_components/Header";
 import { Footer } from "@/app/_components/Footer";
 import { CardList } from "@/app/_components/cards/CardList";
