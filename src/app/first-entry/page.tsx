@@ -16,24 +16,24 @@ const FirstEntry = () => {
           fetch data, and so on.
         </p>
         <p>
-          I was completely lost I didn’t get the hype, and naturally, I watched
+          I was completely lost I did not get the hype, and naturally, I watched
           videos explaining why Next.js is awesome. No surprise the reasons
-          sound good on paper but they didn’t connect with me the way they’ve
+          sound good on paper but they did not connect with me the way they’ve
           connected with others. That’s not until I watched ThePrimeagen talk
           about how bad it is to be a React developer, not a software developer.
           He gave the perfect example, of how beginners jump directly to Next.js
           because it is cool and shiny but they are not able to appreciate what
-          Next.js does under the hood. They can’t even fandom how many layers of
-          abstraction are under Next.js’s routing system.
+          Next.js does under the hood. They can&apos;t even fandom how many layers of
+          abstraction are under Next.js&apos;s routing system.
         </p>
         <p>
           That was the moment when it hit me. I have no idea what I am doing, I
-          haven’t even built a complex Front-End app let alone a Full-Stack one,
+          have not even built a complex Front-End app let alone a Full-Stack one,
           what am I doing in Next.js?
         </p>
         <p>
-          I’ve kept reflecting and I have realized a lot of things. I am not as
-          good in React as I thought I was, I don’t know JavaScript as well as I
+          I have kept reflecting and I have realized a lot of things. I am not as
+          good in React as I thought I was, I do not know JavaScript as well as I
           thought I knew, and so on.
         </p>
         <p>
